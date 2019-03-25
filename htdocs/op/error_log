@@ -1,0 +1,39 @@
+[06-Feb-2018 21:54:45 America/Chicago] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.multisistemax.com [Connection timed out #110]' in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/innodev/teg2.inno-dev.com/inc/inc.ClassEmailNotify.php(142): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/innodev/teg2.inno-dev.com/inc/inc.ClassEmailNotify.php(187): SeedDMS_EmailNotify->toIndividual(Object(SeedDMS_Core_User), Object(SeedDMS_Core_User), 'document_delete...', 'document_ in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[06-Feb-2018 21:55:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.multisistemax.com [Connection timed out #110]' in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/innodev/teg2.inno-dev.com/inc/inc.ClassEmailNotify.php(142): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/innodev/teg2.inno-dev.com/op/op.Ajax.php(227): SeedDMS_EmailNotify->toIndividual('dms@multisistem...', Object(SeedDMS_Core_User), 'testmail_subjec...', 'testmail_body', Array)
+#5 {m in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[06-Feb-2018 22:05:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.multisistemax.com [Connection timed out #110]' in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/innodev/teg2.inno-dev.com/inc/inc.ClassEmailNotify.php(142): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/innodev/teg2.inno-dev.com/op/op.Ajax.php(227): SeedDMS_EmailNotify->toIndividual('dms@multisistem...', Object(SeedDMS_Core_User), 'testmail_subjec...', 'testmail_body', Array)
+#5 {m in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[08-Feb-2018 10:59:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.multisistemax.com [Connection timed out #110]' in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/innodev/teg2.inno-dev.com/inc/inc.ClassEmailNotify.php(142): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/innodev/teg2.inno-dev.com/op/op.Ajax.php(227): SeedDMS_EmailNotify->toIndividual('dms@multisistem...', Object(SeedDMS_Core_User), 'testmail_subjec...', 'testmail_body', Array)
+#5 {m in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[08-Feb-2018 11:02:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.multisistemax.com [Connection timed out #110]' in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/innodev/teg2.inno-dev.com/inc/inc.ClassEmailNotify.php(142): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/innodev/teg2.inno-dev.com/op/op.Ajax.php(227): SeedDMS_EmailNotify->toIndividual('dms@multisistem...', Object(SeedDMS_Core_User), 'testmail_subjec...', 'testmail_body', Array)
+#5 {m in /home/innodev/teg2.inno-dev.com/lib/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268

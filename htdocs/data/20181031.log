@@ -1,0 +1,4 @@
+Oct 31 14:35:15  [info] admin (127.0.0.1) op.Login
+Oct 31 16:13:33  [info] admin (127.0.0.1) op.Login
+Oct 31 16:14:21  [error] -- (127.0.0.1) op.Login UI::exitError error=Nombre de usuario no facilitado.
+ pagetitle=Error de acceso

@@ -1,0 +1,17 @@
+.htaccess
+.DS_Store
+/data/
+cgi-bin
+htdocs/conf/settings.xml
+htdocs/conf/ENABLE_INSTALL_TOOL
+php.ini
+info.php
+php_errors.log
+htdocs/robots.txt
+htdocs/webhook.php
+/.idea/
+htdocs/views/multisis-lte/images/brand.png
+htdocs/views/multisis-lte/images/logo.png
+htdocs/images/multisis-lte/brand.png
+htdocs/images/multisis-lte/logo.png
+htdocs/views/multisis-lte/graphs/json/
